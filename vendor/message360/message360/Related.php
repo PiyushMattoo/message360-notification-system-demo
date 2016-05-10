@@ -14,13 +14,13 @@ abstract class Message360_Related {
     CONST WRAPPER_XML = 'xml';
 
     /** BASE Message360 URI */
-    CONST API_URL = 'https://api.message360.com/api/v1b/';
+    CONST API_URL = 'https://api.message360.com/api/v2/';
 
     /** BASE Message360 API VERSION */
-    CONST API_VERSION = 'v1b';
+    CONST API_VERSION = 'v2';
     CONST API_START_COMPONENT = 'Accounts';
 
-    protected $_availableVersions = array('2015-11-01', 'v1b');
+    protected $_availableVersions = array('2015-11-01', 'v2');
     protected static $_options = array(
         'account_sid' => null,
         'auth_token' => null,
